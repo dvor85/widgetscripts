@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/add_script"
+        android:orderInCategory="1"
+        android:title="@string/add_script">
+    </item>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="2"
+        android:title="@string/about">
+    </item>
+</menu>

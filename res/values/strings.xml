@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WidgetScripts</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="run">Run</string>
+    <string name="stop">Close</string>
+    <string name="auto_close">Auto close %1$s sec</string>
+    <string name="script_name">Name: </string>
+    <string name="root_need">Needs root: </string>
+    <string name="script_file">Script command: </string>
+    <string name="script">Script: </string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="load_file">Load</string>
+    <string name="add_script">Add script</string>
+    <string name="edit_script">Edit script</string>
+    <string name="delete_script">Delete script</string>
+    <string name="name_hint">Name will be added automatically, when loaded a script file</string>
+    <string name="script_hint">Load a script file or enter shell command</string>
+    <string name="about">About...</string>
+    <string name="information">Running scripts without knowing what you are doing, can damage the device!\nPlease use this program very carefully.\nThe developer is not responsible for damaged product due to the use of this program.
+\n\nTo run the scripts as root, your device should be rooted.\n\nCopyrights: Dmitriy Vorotilin</string>
+
+</resources>
