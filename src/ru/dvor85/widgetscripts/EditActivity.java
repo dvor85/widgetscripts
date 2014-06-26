@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 
-import ru.dvor85.widgetscripts.R;
 import android.app.Activity;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -186,7 +185,7 @@ public class EditActivity extends Activity implements OnClickListener {
 		return true;
 	}
 
-	private void loadData() {		
+	private void loadData() {
 		mDb = new DB(this);
 		mDb.open();
 		try {

@@ -56,7 +56,7 @@ public class MainActivity extends ListActivity {
 			resultValue = new Intent();
 			resultValue.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, widgetID);
 		}
-		
+
 		setContentView(R.layout.activity_main);
 		btn_add = (Button) findViewById(R.id.btn_add);
 
@@ -174,7 +174,7 @@ public class MainActivity extends ListActivity {
 			mDb.delScript(id);
 			mCursor.requery();
 			break;
-		case R.id.edit:			
+		case R.id.edit:
 			StartEditActivity(id);
 		default:
 			break;

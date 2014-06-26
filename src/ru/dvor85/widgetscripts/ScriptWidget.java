@@ -2,7 +2,6 @@ package ru.dvor85.widgetscripts;
 
 import java.util.Arrays;
 
-import ru.dvor85.widgetscripts.R;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
@@ -75,9 +74,9 @@ public class ScriptWidget extends AppWidgetProvider {
 				// Настраиваем внешний вид виджета
 
 				widgetView.setTextViewText(R.id.widget_name, widgetName);
-				
+
 				Intent intent = new Intent(context, ScriptActivity.class);
-				intent.putExtra(DB.COLUMN_SCRIPTS_ID, scriptId);				
+				intent.putExtra(DB.COLUMN_SCRIPTS_ID, scriptId);
 				Uri data = Uri.parse(intent.toUri(Intent.URI_INTENT_SCHEME));
 				intent.setData(data);
 				PendingIntent pIntent = PendingIntent.getActivities(
